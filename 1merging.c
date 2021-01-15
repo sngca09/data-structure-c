@@ -11,7 +11,7 @@ void main()
 	 scanf("%d",&n);
 	 read(b,n);
 	 x=merge(a,b,m,n,c)  ;
-	 void display(int *,int );
+	 void display(int *,int );// this declaration is not possible in c.I think u save the pgm as .cpp
 	 display(c,x) ;
 	
 }
