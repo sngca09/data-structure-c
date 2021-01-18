@@ -93,7 +93,7 @@ void search()
    {
         if(cq[f]==n)
         {
-            printf("element found at the position %d",f);
+            printf("element found at the position %d",f+1);
             break;
         }
       else if (front==rear)
@@ -126,10 +126,11 @@ case 4:
 search();
 break;
 case 5:
+   return; 
 break;
 default:
-break;
 printf("check your choice");
+        break;
 }
 }while(choice!=5);
 return 0;
