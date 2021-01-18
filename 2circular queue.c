@@ -126,7 +126,7 @@ case 4:
 search();
 break;
 case 5:
-   return; 
+   return 0; 
 break;
 default:
 printf("check your choice");
