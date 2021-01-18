@@ -1,6 +1,7 @@
 #include<stdio.h>
 void read(int *,int);
 int merge(int *,int *,int ,int ,int *);
+void display(int *,int );
 void main()
 {	int a[20],b[20],x;
 	int c[20],n,m;
@@ -11,7 +12,7 @@ void main()
 	 scanf("%d",&n);
 	 read(b,n);
 	 x=merge(a,b,m,n,c)  ;
-	 void display(int *,int );// this declaration is not possible in c.I think u save the pgm as .cpp
+	 
 	 display(c,x) ;
 	
 }
