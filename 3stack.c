@@ -81,7 +81,7 @@ void search()
 
 int main()
 {
-int choice,item,flag;
+int choice;
 do
 {
 printf("\nenter a choice \n1.push \n 2.pop\n 3.traverse and display\n 4.search\n5.exit");
